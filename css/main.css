@@ -10,16 +10,20 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
+
+
 div {
   text-align: center;
 }
 
 
 
+
 img {
   width: 68%;
 
-
+  box-shadow: rgb(101, 101, 101) 10px 10px 25px;
 }
 
 h1 {
@@ -50,7 +54,7 @@ article {
 }
 
 body {
-  background: peachpuff
+  background: peachpuff;
 }
 
 .dropdown-content {
@@ -113,8 +117,5 @@ footer {
 img#len {
   float: left;
   display: inline;
-}
 
-html {
-  background-image: url(Screen.png)
 }
