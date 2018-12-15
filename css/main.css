@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -12,12 +14,18 @@
 
 
 
+body {
+  background: url(css/home.png);
 
-div {
   text-align: center;
+
 }
 
+img#len {
+  float: left;
+  display: inline;
 
+}
 
 
 img {
@@ -26,13 +34,12 @@ img {
   box-shadow: rgb(101, 101, 101) 10px 10px 25px;
 }
 
+
 h1 {
   text-align: center;
 }
 
-body {
-  text-align: center;
-}
+
 
 
 
@@ -40,9 +47,25 @@ nav {
   float: left;
   clear: both;
   display: block;
-  text-decoration-line: underline;
+
 
 }
+
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+
 
 article {
   background: rgb(204, 92, 92);
@@ -53,69 +76,9 @@ article {
   text-align: justify;
 }
 
-body {
-  background: peachpuff;
-}
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: peachpuff;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 12px 16px;
-  z-index: 1;
-
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  text-align: center;
-
-}
-
-div {
-  list-style: none;
-
-  margin: auto;
-}
-
-nav ul li {
-  list-style: none;
-}
-
-nav ul li a {
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: brown;
-}
-
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: white;
-}
 
 footer {
   background: rgb(204, 92, 92);
   display: inline;
-}
-
-img#len {
-  float: left;
-  display: inline;
-
 }
